@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --color-lightblue: #3DE0F2;
+  --color-blue: #0B508C;
+  --color-red: #F22E2E;
+  --color-toolightblue: #E0EDFF;
+}
