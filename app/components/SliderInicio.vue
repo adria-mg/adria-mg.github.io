@@ -3,9 +3,9 @@
 <template>
     <div class="w-full">
         <NuxtImg src="/starter.jpg" fit="cover" class="w-full h-auto"/>
-        <div class="absolute top-1/3 place-self-center justify-center text-center w-full">
-        <p class=" text-white font-bold text-7xl">¿Porque deberías</p>
-        <p class=" text-white font-bold text-7xl mb-10"><span class="text-red">navegar</span> en <span class="text-red">europe</span>?</p>
+        <div class="absolute lg:top-1/3 md:top-1/3 xs:top-1/2 place-self-center justify-center text-center w-full">
+          <p class=" text-white font-bold lg:text-7xl md:text-5xl sm:text-4xl">¿Porque deberías</p>
+          <p class=" text-white font-bold lg:text-7xl mb-10 md:text-5xl sm:text-4xl"><span class="text-red">navegar</span> en <span class="text-red">europe</span>?</p>
         <div>
             <a href="/laclase"
               class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">

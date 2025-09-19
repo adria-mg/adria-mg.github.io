@@ -1,4 +1,4 @@
 <template>
-    <h1>Hola</h1>
+    <h1>User Panel</h1>
         <NuxtPage />
 </template>

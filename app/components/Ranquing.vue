@@ -1,7 +1,7 @@
 <script setup>
 const position = [1, 2, 3, 4, 5];
 
-const sailors = ['Adria Morata', 'Lluis Morata', 'Pau Mora', 'Jordi Camos', 'Ramon Figueras'];
+const sailors = ['Adria Gonzalez', 'Lluis Gonzalez', 'Pau Gonzalez', 'Jordi Gonzalez', 'Ramon Gonzalez'];
 
 
 
