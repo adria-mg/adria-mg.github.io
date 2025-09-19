@@ -30,6 +30,9 @@ jobs:
       - name: Install deps
         run: npm ci
 
+      - name: install nuxt image
+        run: npm install @nuxt/image
+
       # Use ONE of these build steps:
 
       # A) If nuxt.config.ts has app.baseURL='/my-nuxt-app/'
