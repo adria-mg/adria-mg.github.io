@@ -34,7 +34,7 @@
 
       <div class="flex flex-wrap items-center justify-between gap-4 px-10 py-3 bg-blue min-h-[65px]">
         <a href="javascript:void(0)">
-          <NuxtImg src="/LogoEuropeCat_2025.png" alt="logo" class="w-20"/>
+          <!--<NuxtImg src="/LogoEuropeCat_2025.png" alt="logo" class="w-20"/>-->
           <!--<img src="./assets/images/LogoEuropeCat_2025.png" alt="logo" class="w-20" />-->
         </a>
 
