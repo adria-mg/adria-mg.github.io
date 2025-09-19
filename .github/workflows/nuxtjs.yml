@@ -55,20 +55,11 @@ jobs:
       - name: Install deps
         run: npm ci
 
+      - name: Install deps
+        run: npm install @nuxt/image
       # Use ONE of these build steps:
 
-      # A) If nuxt.config.ts has app.baseURL='/my-nuxt-app/'
-      - name: Build (Nuxt preset for GitHub Pages)
-        run: npx nuxt build --preset github_pages
-
-      # B) If you prefer env var instead of editing nuxt.config.ts, comment A and use:
-      # - name: Build with baseURL env
-      #   run: NUXT_APP_BASE_URL=/my-nuxt-app/ npx nuxt build --preset github_pages
-
-      - name: Add 404 fallback
-        run: cp .output/public/index.html .output/public/404.html
-
-      - name: Configure Pages
+      - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
           # Automatically inject router.base in your Nuxt configuration file and set
@@ -97,6 +88,7 @@ jobs:
         
         with:
           path: ./output/public
+
 
   # Deployment job
   deploy:
