@@ -1,11 +1,13 @@
 <script setup> </script>
 
 <template>
-    <div class="bg-[url(/bannersup.jpg)] p-50">
-        <p class="text-white font-bold place-self-center text-7xl">¿Porque deberías</p>
-        <p class="text-white font-bold place-self-center text-7xl mb-10"><span class="text-red">navegar</span> en <span class="text-red">europe</span>?</p>
-        <div class="place-self-center mt-7">
-            <a href="http://christmasrace.org/" target="_blank"
+    <div class="w-full">
+        <NuxtImg src="/starter.jpg" fit="cover" class="w-full h-auto"/>
+        <div class="absolute top-1/3 place-self-center justify-center text-center w-full">
+        <p class=" text-white font-bold text-7xl">¿Porque deberías</p>
+        <p class=" text-white font-bold text-7xl mb-10"><span class="text-red">navegar</span> en <span class="text-red">europe</span>?</p>
+        <div>
+            <a href="/laclase"
               class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Conocer más
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +17,9 @@
               </svg>
             </a>
           </div>
+      </div>  
+        
     </div>
 </template>
 
-<style></style>
+<style></style>s
