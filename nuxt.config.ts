@@ -14,6 +14,6 @@ export default defineNuxtConfig({
   ], 
   css: ['~/assets/css/main.css'], 
   app: {
-    baseURL: 'https://adria-mg.github.io/'
+    baseURL: '/my-nuxt-app/'
   }
 })
