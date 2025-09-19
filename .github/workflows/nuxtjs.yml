@@ -31,14 +31,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Detect package manager
-        id: detect-package-manager
-        run: NUXT_APP_BASE_URL=/my-nuxt-app/ npx nuxt build --preset github_pages
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+
+      - name: Detect package manager
+        id: detect-package-manager
+        run: npx nuxt build --preset github_pages
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
