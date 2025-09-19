@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     '@nuxt/ui'
   ], 
+  image: {},
   css: ['~/assets/css/main.css'], 
   app: {
     baseURL: '/my-nuxt-app/'
